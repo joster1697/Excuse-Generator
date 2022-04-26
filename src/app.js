@@ -22,10 +22,6 @@ let generateExcuse = () => {
     "while I was praying"
   ];
 
-  let whoIndex = 0;
-  let actionIndex = 0;
-  let whatIndex = 0;
-  let whenIndex = 0;
   return (
     who[Math.floor(Math.random() * who.length)] +
     " " +
